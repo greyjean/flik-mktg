@@ -20,14 +20,14 @@ $(function ($) {
     //BG SLIDESHOW WITH ZOOM EFFECT
     $.mbBgndGallery.buildGallery({
                 containment:"body",
-                timer:5000,
+                timer:905000,
                 effTimer:2500,
                 controls:false, //updated in v1.1
                 grayScale:false,
-                shuffle:true,
+                shuffle:false,
                 preserveWidth:false,
                 preserveTop: true,
-                effect:"slideUp",
+                effect:"fade",
 	//effect:{enter:{transform:"scale("+(1+ Math.random()*2)+")",opacity:0},exit:{transform:"scale("+(Math.random()*2)+")",opacity:0}},
 
                 // If your server allow directory listing you can use:
@@ -38,7 +38,7 @@ $(function ($) {
                 // else:
 
                  images:[
-                 "images/bg/girlatcounter.jpg",
+                 "images/bg/girlatcounter.jpg"
                  //"images/bg/02.jpg",
                  ],
 

@@ -38,8 +38,8 @@ $(function ($) {
                 // else:
 
                  images:[
-                 "images/bg/01.jpg",
-                 "images/bg/02.jpg",
+                 "images/bg/girlatcounter.jpg",
+                 //"images/bg/02.jpg",
                  ],
 
                 onStart:function(){},

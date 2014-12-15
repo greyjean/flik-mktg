@@ -2,7 +2,7 @@
 
 // Define some constants
 define( "RECIPIENT_NAME", "John Doe" ); //UPDATE THIS TO YOUR NAME
-define( "RECIPIENT_EMAIL", "info@flik.me" ); //UPDATE THIS TO YOUR EMAIL ID
+define( "RECIPIENT_EMAIL", "john@flik.me" ); //UPDATE THIS TO YOUR EMAIL ID
 define( "EMAIL_SUBJECT", "Sign me up" ); //UPDATE THIS TO YOUR SUBJECT
 
 // Read the form values

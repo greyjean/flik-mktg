@@ -23,6 +23,10 @@
 		margin-right: auto;
 	}
 
+	.top-banner-caption-v3 h1{
+	font-size: 122px;
+	}
+
 }
 
 /*Projector Screens and Ver Large Monitors*/
@@ -44,6 +48,14 @@
 		max-width:990px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.top-banner-caption-v3 h1{
+	font-size: 122px;
+	}
+
+	.hero-caption-about {
+    margin-top: -200px;
 	}
 
 }
@@ -70,6 +82,14 @@
 		margin-right: auto;
 	}
 
+	.top-banner-caption-v3 h1{
+	font-size:122px;
+	}
+
+	.hero-caption-about {
+    margin-top: -200px;
+	}
+
 }
 
 
@@ -92,6 +112,14 @@
 		max-width:990px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.top-banner-caption-v3 h1{
+	font-size: 72px;
+	}
+
+	.hero-caption-about {
+    margin-top: -200px;
 	}
 
 
@@ -118,6 +146,81 @@
 		margin-right: auto;
 	}
 
+	.top-banner-caption-v3 h1{
+	font-size: 72px;
+	}
+
+	.hero-caption-about {
+    display: inline-block;
+    float: left;
+    margin-left: 60px;
+    margin-top: -200px;
+    padding-right: 60px;
+    text-align: left;
+    width: 100%;
+	}
+
+	.top-banner-caption-v4 h1 {
+    font-size: 58px;
+	}
+
+	.text-left.caption-1 {
+    margin: 10px;
+    padding: 10px 0 !important;
+    position: relative;
+    top: 14%;
+    width: 48% !important;
+	}
+
+}
+
+/*Medium Widescreen Monitors*/
+@media (max-width: 1600px) {
+	  .show-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	.container, .service-details{
+	    max-width:990px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 16.6%;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 100px;
+	}
+	.top-caps6{
+		max-width:990px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.top-banner-caption-v3 h1{
+	font-size: 72px;
+	}
+
+	.hero-caption-about {
+    display: inline-block;
+    float: left;
+    margin-left: 60px;
+    margin-top: -200px;
+    padding-right: 60px;
+    text-align: left;
+    width: 100%;
+	}
+
+	.top-banner-caption-v4 h1 {
+    font-size: 58px;
+	}
+
+	.text-left.caption-1 {
+    margin: 10px;
+    padding: 10px 0 !important;
+    position: relative;
+    top: 14%;
+    width: 48% !important;
+	}
+
 }
 
 /*Large Widescreen Laptops*/
@@ -141,6 +244,18 @@
 		margin-right: auto;
 	}
 
+	.top-banner-caption-v3 h1{
+	font-size: 72px;
+	}
+
+	.hero-caption {
+    width: 60%;
+	}
+
+	.hero-caption-about {
+    margin-top: -200px;
+	}
+
 }
 
 /*Common Widescreen Laptops*/
@@ -157,6 +272,18 @@
 	}
 	div#portfolio_thumbs ul li div.item_info p{
 		margin-top: 120px;
+	}
+
+	.top-banner-caption-v3 h1{
+	font-size: 72px;
+	}
+
+	.hero-caption {
+    width: 60%;
+	}
+
+	.hero-caption-about {
+    margin-top: -200px;
 	}
 }
 
@@ -181,8 +308,58 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-}
 
+	.top-banner-caption-v3 h1{
+	font-size: 72px;
+	}
+
+	.hero-caption {
+    width: 60%;
+	}
+
+	.top-banner-caption-v4 h1 {
+    font-size: 48px;
+	}
+
+	.text-left.caption-1 {
+    margin: 10px;
+    padding: 10px 0 !important;
+    position: relative;
+    top: 14%;
+    width: 60% !important;
+	}
+}
+/*Notebooks and Small Laptops*/
+@media (max-width: 1191px) {
+	.top-banner-caption-v3 h1{
+	font-size: 72px;
+	}
+
+	.hero-caption {
+    width: 60%;
+	}
+
+	.top-banner-caption-v4 h1 {
+    font-size: 38px;
+	}
+
+	.text-left.caption-1 {
+    margin: 10px;
+    padding: 10px 0 !important;
+    position: relative;
+    top: 14%;
+    width: 60% !important;
+	}
+
+	.hero-caption-about {
+   	padding-right: 80px;
+	}
+
+	.hero-caption-services {
+	padding-top: 100px;
+    width: 50%;
+	}
+}
 /*Notebooks and Small Laptops*/
 @media (max-width: 1152px) {
 	  .show-on-mobile-only{
@@ -203,9 +380,7 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.top-banner-caption-v9 h1, .top-banner-caption-v4 h1, .top-banner-caption-v5 h1{
-		font-size: 72px;
-	}
+
 	.top-banner-caption-v6 h1{
 		font-size: 124px;
 	} 
@@ -217,6 +392,14 @@
 	}
 	.standard-spacing{
 		margin-left: 60px !important;
+	}
+
+	.top-banner-caption-v3 h1{
+	font-size: 72px;
+	}
+
+	.hero-caption {
+    width: 60%;
 	}
 }
 
@@ -240,9 +423,7 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.top-banner-caption-v9 h1, .top-banner-caption-v4 h1, .top-banner-caption-v5 h1{
-		font-size: 72px;
-	}
+
 	.top-banner-caption-v6 h1{
 		font-size: 124px;
 	} 
@@ -254,6 +435,56 @@
 	}
 	.standard-spacing{
 		margin-left: 60px !important;
+	}
+
+	.top-banner-caption-v3 h1{
+	font-size: 62px;
+	}
+
+	.top-banner-caption-v4 h1{
+	font-size: 38px;
+	}
+
+	.hero-caption {
+    width: 60%;
+	}
+
+	#about {
+    background: url("../images/bg/mother-shopping.jpg") no-repeat scroll 80% 0 / cover transparent;
+    height: 100%;
+    top: 0;
+    width: 100%;
+	}
+
+	.hero-caption-about {
+    margin-top: -200px;
+	}
+
+	.text-left.caption-1 {
+    margin: 10px;
+    padding: 10px 0 !important;
+    position: relative;
+    top: 14%;
+    width: 50% !important;
+	}
+
+	.caption-1 p {
+    font-size: 18px !important;
+	}
+
+	.hero-caption-portfolio {
+    float: left;
+    margin-left: 60px;
+    padding-top: 60px;
+    text-align: left;
+    width: 60%;
+	}
+
+	#portfolio {
+    background: url("../images/bg/creditcard.jpg") no-repeat scroll 80% center / cover transparent;
+	}
+	.hero-caption-portfolio span {
+    font-size: 25px;
 	}
 
 }
@@ -377,10 +608,7 @@
 	    font-size: 48px;
 	    line-height: 55px;
 	}
-	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
-		font-size: 72px;
-		line-height: 79px;
-	}
+
 	.top-banner-caption-v2 h3{
 		font-size: 24px;
 		line-height: 31px;
@@ -411,6 +639,14 @@
 	}
 	.standard-spacing{
 		margin-left: 60px !important;
+	}
+
+	.top-banner-caption-v3 h1{
+	font-size: 42px;
+	}
+
+	.hero-caption {
+    width: 60%;
 	}
 }
 
@@ -533,10 +769,7 @@
 	    font-size: 48px;
 	    line-height: 55px;
 	}
-	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
-		font-size: 72px;
-		line-height: 79px;
-	}
+
 	.top-banner-caption-v2 h3{
 		font-size: 24px;
 		line-height: 31px;
@@ -567,6 +800,23 @@
 	}
 	.standard-spacing{
 		margin-left: 60px !important;
+	}
+
+	.hero-caption {
+    width: 60%;
+	}
+
+	.top-banner-caption-v4 h1{
+		font-size: 28px;
+    	line-height: 1.2;
+	}
+
+	.caption-1 p {
+    font-size: 14px !important;
+	}
+
+	.text-left.caption-1 {
+    margin: 0;
 	}
 }
 
@@ -683,15 +933,11 @@
 	}
 	.top-banner-caption-v6 h1{
 		font-size: 64px;
-		line-height: 71px;
+		line-height: 1.5;
 	}
 	.top-banner-caption-v1 h3 > span {
 	    font-size: 48px;
-	    line-height: 55px;
-	}
-	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
-		font-size: 72px;
-		line-height: 79px;
+	    line-height: 1.5;
 	}
 	.top-banner-caption-v2 h3{
 		font-size: 24px;
@@ -723,6 +969,23 @@
 	}
 	.standard-spacing{
 		margin-left: 60px !important;
+	}
+
+	.hero-caption {
+    width: 60%;
+	}
+
+	.top-banner-caption-v4 h1{
+		font-size: 38px;
+    	line-height: 1.2;
+	}
+
+	#services {
+    background: url("../images/bg/girlwithbike.jpg") no-repeat scroll 30% center / cover transparent;
+	}
+
+	.hero-caption-services {
+    margin-right: 40px;
 	}
 
 }
@@ -845,10 +1108,7 @@
 	    font-size: 32px;
 	    line-height: 38px;
 	}
-	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
-		font-size: 64px;
-		line-height: 71px;
-	}
+
 	.top-banner-caption-v2 h3{
 		font-size: 18px;
 		line-height: 28px;
@@ -876,6 +1136,10 @@
 	}
 	div#portfolio_thumbs ul li div.item_info p{
 		margin-top: 160px;
+	}
+
+	.hero-caption {
+    width: 60%;
 	}
 } 
 
@@ -996,10 +1260,6 @@
 	    font-size: 32px;
 	    line-height: 38px;
 	}
-	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
-		font-size: 64px;
-		line-height: 71px;
-	}
 	.top-banner-caption-v2 h3{
 		font-size: 18px;
 		line-height: 28px;
@@ -1031,6 +1291,23 @@
 	.btn-rounded {
 	    font-size: 16px;
 	    padding: 8px 13px;
+	}
+
+	.hero-caption {
+    width: 70%;
+	}
+
+	.top-banner-caption-v4 h1{
+		font-size: 28px;
+    	line-height: 1.2;
+	}
+
+	.caption-1 p {
+    font-size: 14px !important;
+	}
+
+	.text-left.caption-1 {
+    margin: 0;
 	}
 } 
 
@@ -1160,10 +1437,6 @@
 	    font-size: 24px;
 	    line-height: 31px;
 	}
-	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
-		font-size: 48px;
-		line-height: 55px;
-	}
 	.top-banner-caption-v2 h3{
 		font-size: 12px;
 		line-height: 24px;
@@ -1199,6 +1472,40 @@
 	.btn-rounded {
 	    font-size: 16px;
 	    padding: 8px 13px;
+	}
+
+	.hero-caption {
+    margin-right: 20px;
+    padding-top: 120px;
+    width: 70%;
+	}
+
+	.hero-caption-about {
+    margin-top: -230px;
+	}
+
+	.top-banner-caption-v4 h1 {
+    font-size: 18px;
+    line-height: 1.2;
+	}
+
+	.text-left.caption-1 {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+	}
+
+	.caption-1 p {
+    font-size: 12px !important;
+	}
+
+	.hero-caption-services {
+    padding-top: 50px;
+    width: 55%;
+	}
+
+	.top-banner-caption-v5 h1 {
+    font-size: 28px;
 	}
 }
 
@@ -1318,10 +1625,7 @@
 	    font-size: 24px;
 	    line-height: 31px;
 	}
-	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
-		font-size: 36px;
-		line-height: 43px;
-	}
+
 	.top-banner-caption-v2 h3{
 		font-size: 12px;
 		line-height: 24px;
@@ -1358,6 +1662,28 @@
 	    font-size: 16px;
 	    padding: 8px 13px;
 	}
+
+	.hero-caption {
+    margin-right: 20px;
+    padding-top: 120px;
+    width: 80%;
+	}
+
+	#why {
+    background: url("../images/bg/bestfriends.jpg") no-repeat scroll 78% center / cover transparent !important;
+    height: 100%;
+    top: 0;
+    width: 100%;
+	}
+
+	.hero-caption-why {
+    float: left;
+    margin-left: 85px;
+    padding-top: 60px;
+    text-align: left;
+    width: 50%;
+}
+
 }
 
 /*iPhone Portrait Mode and Very Small Mobile Phones*/
@@ -1479,10 +1805,7 @@
 	    font-size: 24px;
 	    line-height: 31px;
 	}
-	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
-		font-size: 36px;
-		line-height: 43px;
-	}
+
 	.top-banner-caption-v2 h3{
 		font-size: 12px;
 		line-height: 24px;
@@ -1518,6 +1841,19 @@
 	.btn-rounded {
 	    font-size: 16px;
 	    padding: 8px 13px;
+	}
+
+	.hero-caption {
+    margin-right: 20px;
+    padding-top: 120px;
+    width: 80%;
+	}
+
+	#why {
+    background: url("../images/bg/bestfriends.jpg") no-repeat scroll 78% center / cover transparent !important;
+    height: 100%;
+    top: 0;
+    width: 100%;
 	}
 }
 
