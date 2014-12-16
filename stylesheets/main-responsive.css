@@ -403,6 +403,15 @@
 	}
 }
 
+/*macbook 13 and 15 resolutions */
+@media (max-width: 1040px) {
+	.caption-1 p {
+		color: white;
+		font-size: 18px !important;
+		line-height: 1.2;
+	}
+}
+
 /*iPad Landscape Mode and Large Tablets */
 @media (max-width: 1024px) {
 	  .show-on-mobile-only{
