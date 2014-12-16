@@ -1679,19 +1679,23 @@
 	}
 
 	#why {
-    background: url("../images/bg/bestfriends.jpg") no-repeat scroll 78% center / cover transparent !important;
+    background: url("../images/bg/bestfriends.jpg") no-repeat scroll right center / cover  transparent !important;
     height: 100%;
     top: 0;
     width: 100%;
 	}
 
-	.hero-caption-why {
+	hero-caption-why {
     float: left;
-    margin-left: 85px;
-    padding-top: 60px;
+    margin-left: 75px;
+    padding-top: 225px;
     text-align: left;
-    width: 50%;
-}
+    width: 70%;
+	}
+
+	.add-top {
+    padding-top: 0 !important;
+	}
 
 }
 
@@ -1863,6 +1867,20 @@
     height: 100%;
     top: 0;
     width: 100%;
+	}
+
+	.top-banner-caption-v5 h1 {
+    font-size: 20px;
+	}
+
+	.caption-1 p {
+    color: white;
+    font-size: 18px !important;
+    line-height: 1.4;
+	}
+
+	.hero-caption-services {
+    margin-right: 25px;
 	}
 }
 
