@@ -25,7 +25,7 @@ if ( $success )
 {
 ?>
 	<script>
-		window.document='thanks.html';
+		window.location='thanks.html';
 	</script>
 <?php
 }
