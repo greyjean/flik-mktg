@@ -311,8 +311,8 @@ p{
 }
 .btn-rounded{
 	background: transparent;
-	border: solid 2px #515456;
-	color: #515456;
+	border: solid 2px #404f80;
+	color: #404f80;
 	padding: 35px;
 	box-shadow: none;
 	border-radius: 50%;
@@ -1122,7 +1122,7 @@ fieldset h1 {
 	background: #404f80;
 }
 .footer-top p{
-	color: #777;
+	color: white;
 	margin-bottom: 0;
 }
 .footer-top .phone{
