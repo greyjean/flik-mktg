@@ -147,7 +147,7 @@ p{
 	font-family:"OpenSansLight";
 	font-size: 24px;
 	line-height:31px;
-	color: #888;
+	color: #404f80;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -155,10 +155,10 @@ p{
 	font-family:"NexaBold";
 	font-size: 36px;
 	line-height: 43px;
-	color: #fff;
+	color: #404f80;
 }
 .main-heading-alt{
-	color: #000;
+	color: #404f80;
 }
 .liner{
 	text-align: center;
@@ -992,11 +992,11 @@ border:solid 3px #121212;
 
 /*CONTACT*/
 .contact{
-	background:#3E4042;
+	background:none repeat scroll 0 0 white;
 }
 input {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
-    border: 2px solid #515456 !important;
+    border: 2px solid #404f80 !important;
     border-radius: 0 0 0 0 !important;
     box-shadow: none !important;
     color: #515456 !important;
@@ -1014,7 +1014,7 @@ input {
 			transition: all .8s linear;
 }
 input:focus, textarea:focus {
-    border: 2px solid #ccc !important;
+    border: 2px solid #404f80 !important;
     color: #ccc !important;
 	-webkit-transition: all .8s linear;
 	   -moz-transition: all .8s linear;
@@ -1024,7 +1024,7 @@ input:focus, textarea:focus {
 }
 textarea {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
-    border: 2px solid #515456 !important;
+    border: 2px solid #404f80 !important;
     border-radius: 0 0 0 0 !important;
     box-shadow: none !important;
     color: #515456 !important;
