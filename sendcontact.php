@@ -1,8 +1,8 @@
 <?php
 
 // Define some constants
-define( "RECIPIENT_NAME", "John Doe" ); //UPDATE THIS TO YOUR NAME
-define( "RECIPIENT_EMAIL", "john@flik.me" ); //UPDATE THIS TO YOUR EMAIL ID
+define( "RECIPIENT_NAME", "Info Sign Up" ); //UPDATE THIS TO YOUR NAME
+define( "RECIPIENT_EMAIL", "info@flik.me" ); //UPDATE THIS TO YOUR EMAIL ID
 define( "EMAIL_SUBJECT", "Sign me up" ); //UPDATE THIS TO YOUR SUBJECT
 
 // Read the form values
@@ -25,7 +25,7 @@ if ( $success )
 {
 ?>
 	<script>
-		window.location='thanks.html';
+		window.document='thanks.html';
 	</script>
 <?php
 }
