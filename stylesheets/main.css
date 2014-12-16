@@ -1178,3 +1178,8 @@ fieldset h1 {
 	font-family:"OpenSansLight";
 	font-weight: 200;
 }
+
+.img-responsive {
+    animation-name: bounceInDown;
+    box-shadow: 4px 6px #cccccc;
+}
