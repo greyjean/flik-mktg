@@ -210,7 +210,7 @@
 	}
 
 	.top-banner-caption-v4 h1 {
-    font-size: 58px;
+    font-size: 38px;
 	}
 
 	.text-left.caption-1 {
@@ -219,6 +219,12 @@
     position: relative;
     top: 14%;
     width: 48% !important;
+	}
+
+	.caption-1 p {
+		color: white;
+		font-size: 16px!important;
+		line-height: 1.5;
 	}
 
 }
